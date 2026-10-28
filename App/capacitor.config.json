@@ -1,0 +1,43 @@
+{
+	"appId": "it.tramontano.studio.staff",
+	"appName": "Studio T",
+	"webDir": "www",
+	"server": {
+		"androidScheme": "https"
+	},
+	"ios": {
+		"contentInset": "never",
+		"backgroundColor": "#f4f3ee"
+	},
+	"android": {
+		"backgroundColor": "#f4f3ee",
+		"allowMixedContent": false
+	},
+	"plugins": {
+		"SystemBars": {
+			"style": "LIGHT",
+			"initialViewportFitValueHint": "cover"
+		},
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		},
+		"SplashScreen": {
+			"launchShowDuration": 5000,
+			"launchAutoHide": true,
+			"backgroundColor": "#0c5e54",
+			"showSpinner": false
+		}
+	},
+	"packageClassList": [
+		"AppPlugin",
+		"PushNotificationsPlugin",
+		"SplashScreenPlugin",
+		"CredenzialiPlugin",
+		"DocumentoPlugin",
+		"StampaPlugin"
+	]
+}
